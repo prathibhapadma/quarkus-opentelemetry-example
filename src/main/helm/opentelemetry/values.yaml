@@ -1,0 +1,19 @@
+# Application configuration
+application:
+  # Configuration to get the metrics information
+  metrics:
+    jobname: "demo-quarkus"
+    url: "/q/metrics"
+  
+  service:
+    name: "demo-quarkus"
+    port: 8080
+
+# Ingress configuration
+ingress:
+  jaeger:
+    host: "jaeger.guentherjulian.cloud.okteto.net"
+    port: 16686
+  grafana:
+    host: "grafana.guentherjulian.cloud.okteto.net"
+    port: 3000
