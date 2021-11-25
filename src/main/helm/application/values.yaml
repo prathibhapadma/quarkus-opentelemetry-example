@@ -2,7 +2,7 @@
 application:
   image:
     ## TODO: Insert the registry from which you want to pull the image
-    registry: "registry.cloud.okteto.net/guentherjulian"
+    registry: "hub.docker.com/dockerregistry101"
     repository: "demo-quarkus"
     tag: "latest"
 
@@ -32,4 +32,4 @@ postgres:
 
 # Ingress configuration
 ingress:
-  host: "demo-quarkus.guentherjulian.cloud.okteto.net"
+  host: "demo-quarkus.prathibhapadma.cloud.okteto.net"
