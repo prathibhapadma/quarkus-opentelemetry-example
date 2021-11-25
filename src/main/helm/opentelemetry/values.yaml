@@ -12,8 +12,8 @@ application:
 # Ingress configuration
 ingress:
   jaeger:
-    host: "jaeger.guentherjulian.cloud.okteto.net"
+    host: "jaeger.prathibhapadma.cloud.okteto.net"
     port: 16686
   grafana:
-    host: "grafana.guentherjulian.cloud.okteto.net"
+    host: "grafana.prathibhapadma.cloud.okteto.net"
     port: 3000
